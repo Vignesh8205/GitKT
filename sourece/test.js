@@ -1,1 +1,35 @@
 console.log("test excuted");
+let test="tes3.js";
+console.log(test);
+let a=10;
+let b=20;
+console.log(a+b);let test="tes3.js";
+console.log(test);
+let a=10;
+let b=20;
+console.log(a+b);let test="tes3.js";
+console.log(test);
+let a=10;
+let b=20;
+console.log(a+b);let test="tes3.js";
+console.log(test);
+let a=10;
+let b=20;
+console.log(a+b);let test="tes3.js";
+console.log(test);
+let a=10;
+let b=20;
+console.log(a+b);let test="tes3.js";
+console.log(test);
+let a=10;
+let b=20;
+console.log(a+b);let test="tes3.js";
+console.log(test);
+let a=10;
+let b=20;
+
+console.log(a+b);
+
+
+
+console.log(a+b);
