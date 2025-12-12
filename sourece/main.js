@@ -35,5 +35,3 @@ let b=20;
 console.log(a+b);
 
 console.log("test excuted");
-console.log("test excuted");
-console.log("test excuted");
