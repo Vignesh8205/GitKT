@@ -1,0 +1,115 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - text: Team of Defenders backoffice_frontend@master.1ff08bbf9f0deb58aecc1587b67071e342fc5c72+6730
+  - button "Log Out":
+    - strong: Log Out
+  - button "Versions":
+    - strong: Versions
+- main:
+  - separator
+  - complementary:
+    - list:
+      - listbox:
+        - text: MISSION CONTROL
+        - option "Launch Pad"
+        - option "Notification Center"
+        - text: MANAGE
+        - option "Accounts"
+        - option "Users"
+        - option "Devices"
+        - option "Gateways"
+        - option "Organizations" [selected]
+        - separator
+        - option "Device Configs"
+        - option "Audit Log"
+        - option "Role Controls"
+  - button
+  - text: "sitelink cctst demo2 'test1' | SL-DEM-02: Billing Profile"
+  - progressbar
+  - heading "Billing Rates" [level=3]
+  - text: Currency
+  - textbox "Currency" [disabled]: USD
+  - button "Device Billing Model Purchased":
+    - text: Device Billing Model Purchased
+    - textbox "Device Billing Model"
+  - text: Device Rental Amount
+  - textbox "Device Rental Amount": $100.00
+  - text: Device Subscription Amount
+  - textbox "Device Subscription Amount": $200.00
+  - text: Smart Zone Device Rental Amount
+  - textbox "Smart Zone Device Rental Amount": $300.00
+  - text: Tenant Subscription Amount
+  - textbox "Tenant Subscription Amount": $400.00
+  - text: Device Charge
+  - textbox "Device Charge": $500.00
+  - heading "Re-Order Settings" [level=3]
+  - text: Re-Order Threshold
+  - spinbutton "Re-Order Threshold": "1"
+  - text: Re-Order Quantity
+  - spinbutton "Re-Order Quantity": "22"
+  - heading "Free Zone Defender" [level=3]
+  - spinbutton: "2"
+  - heading "Inventory Approver" [level=3]
+  - button "Select Inventory Approver":
+    - text: Select Inventory Approver
+    - textbox "Select Inventory Approver"
+  - heading "Discount Tiers" [level=3]
+  - table:
+    - rowgroup:
+      - row "Tier Threshold Discount Amount":
+        - cell "Tier"
+        - cell "Threshold"
+        - cell "Discount Amount"
+        - cell
+    - rowgroup:
+      - row "1 $2.00":
+        - cell "1":
+          - textbox: "1"
+        - cell:
+          - spinbutton: "2"
+        - cell "$2.00":
+          - textbox: $2.00
+        - cell:
+          - button
+      - row "Tier Threshold Discount Amount":
+        - cell "Tier":
+          - text: Tier
+          - textbox "Tier"
+        - cell "Threshold":
+          - text: Threshold
+          - spinbutton "Threshold"
+        - cell "Discount Amount":
+          - text: Discount Amount
+          - textbox "Discount Amount"
+        - cell:
+          - button [disabled]
+  - heading "Charges/Fees" [level=3]
+  - button "Select Charge EZMove Fee":
+    - text: Select Charge EZMove Fee
+    - textbox "Select Charge" [disabled]
+  - text: Price[$]
+  - textbox "Price[$]": "8.00"
+  - button "Update Charge" [disabled]
+  - button "Delete Charge"
+  - button "Select Charge":
+    - text: Select Charge
+    - textbox "Select Charge"
+  - text: Price[$]
+  - textbox "Price[$]"
+  - button [disabled]
+  - heading "Promotional Pricing" [level=3]
+  - button "Discount Units Months":
+    - text: Discount Units Months
+    - textbox "Discount Units"
+  - button "Duration 0":
+    - text: Duration 0
+    - textbox "Duration"
+  - text: Discount Percent
+  - spinbutton "Discount Percent": "0"
+  - button "Save Billing Profile"
+  - button "Cancel"
+- contentinfo:
+  - paragraph: © 2020-2025 StorageDefender Inc.
+```

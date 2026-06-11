@@ -1,0 +1,17 @@
+{
+    "clubManageMentPage": {
+        "colors": {
+            "Primary": "#040080",
+            "Secondary": "#800080",
+            "Tertiary": "#008000"
+        }
+    },
+    
+"personManagementPage": {
+        "colors": {
+            "Person Code"   :"random"
+
+        }
+    }
+}
+
